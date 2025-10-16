@@ -10,7 +10,7 @@ function toPlainText(blocks: any[] = []) {
       .map((block) => {
         // if it's not a text block with children,
         // return nothing
-        if (block._type !== 'block' || !block.children) {
+        if ((block._type && block._type !== 'block') || !block.children) {
           return ''
         }
         // loop through the children spans, and join the
@@ -23,7 +23,6 @@ function toPlainText(blocks: any[] = []) {
 }
 
 export const handler = documentEventHandler(async ({context, event}) => {
-  
   const time = new Date().toLocaleTimeString()
   console.log(`👋 Your Sanity Function was called at ${time}`)
 
