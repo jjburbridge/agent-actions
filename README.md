@@ -1,4 +1,4 @@
-# Wilmington
+# Content Review
 
 Sanity Studio for market/product content sections, with custom tools for exploring, editing, commenting on, exporting, and comparing content.
 
