@@ -15,18 +15,26 @@
     "sanity"
   ],
   "dependencies": {
-    "@sanity/vision": "^4.10.2",
-    "react": "^19.1",
-    "react-dom": "^19.1",
-    "sanity": "^4.10.2",
-    "styled-components": "^6.1.18"
+    "@portabletext/react": "^8.0.1",
+    "@portabletext/types": "^4.0.2",
+    "@sanity/diff": "^6.19.0",
+    "@sanity/sdk-react": "^3.9.1",
+    "@sanity/vision": "^6.19.0",
+    "diff": "^9.0.0",
+    "jspdf": "^4.2.1",
+    "react": "^19.3.1",
+    "react-dom": "^19.3.1",
+    "sanity": "^6.19.0",
+    "styled-components": "^6.6.0"
   },
   "devDependencies": {
-    "@sanity/eslint-config-studio": "^5.0.2",
-    "@types/react": "^19.1",
-    "eslint": "^9.28",
-    "prettier": "^3.5",
-    "typescript": "^5.8"
+    "@sanity/eslint-config-studio": "^7.0.0",
+    "@types/diff": "^8.0.0",
+    "@types/jspdf": "^2.0.0",
+    "@types/react": "^19.3.0",
+    "eslint": "^10.13.0",
+    "prettier": "^3.9.10",
+    "typescript": "^7.0.2"
   },
   "prettier": {
     "semi": false,
